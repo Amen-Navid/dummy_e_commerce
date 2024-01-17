@@ -1,0 +1,206 @@
+body{
+  overflow-x: hidden;
+}
+.featured-items{
+  display: flex;
+  margin: 4rem 8rem;
+  width: 80%;
+  line-height: 0.5rem;
+  /* overflow-x: hidden; */
+}
+
+.right-featured-items{
+  display:block;
+  margin-left: 10px;
+  /* background-color: black; */
+  padding: 30px 20px;
+  width:50rem;
+  height: 25rem;
+ 
+}
+
+.left-featured-items{
+  background: url(../../assets/Images/hero_bg.jpg);
+ filter:brightness(90%) contrast(100%);
+  padding: 40px 20px;
+  width: 16rem;
+  height: 25.1rem;
+}
+
+.left-featured-items .p-name{
+  color: grey !important;
+  /* font-size: 25px; */
+  width: max-content;
+  /* width: 100%; */
+  margin: 1rem .5rem;
+  font:600 1.7rem lato ;
+  /* text-align: center; */
+text-transform: capitalize
+}
+
+.left-featured-items img{
+  margin: -1rem 30px;
+  padding-bottom: 4rem;
+  width: 200px;
+  filter:brightness(200%) contrast(110%) saturate(80%);
+    /* background-color: black; */
+}
+.smart-watch{
+  width: 60%;
+  background: url(../../assets/Images/hero_bg.jpg);
+  filter:brightness(90%) contrast(100%);
+  margin-top: -30px;
+  /* height: 230px; */
+  padding-top: 45px;
+}
+.controller{
+  width: 60%;
+  background: url(../../assets/Images/hero_bg.jpg);
+  filter:brightness(90%) contrast(100%) ;
+  margin: .6rem 1rem;
+  display: flex;
+  overflow-x: hidden;
+  height:230px;
+  padding-bottom: 5px;
+}
+.controller p{
+  text-align: left;
+  margin-left:5rem;
+
+}
+
+
+.controller img{
+  width: 300px;
+  height: 200px;
+  margin: .8rem 0rem 0 -5.5rem;
+  filter:brightness(120%) contrast(110%) saturate(80%);
+
+
+}
+.smart-watch img{
+  /* background-color: black; */
+  margin: -16px 0px;
+  width: 12rem;
+  height: 12rem;
+  /* padding: 20px; */
+  transform: rotate(40deg);
+  filter:brightness(80%) contrast(120%) saturate(120%);
+
+}
+
+.smart-watch p{
+  margin: -4rem 6rem;
+  padding-left: 7rem;
+  text-align: left;
+}
+
+.speaker{
+  width: 40%;
+  background: url(../../assets/Images/hero_bg.jpg);
+  filter:brightness(90%) contrast(100%);
+padding-bottom: 5px;
+  
+  /* margin-top: -20rem; */
+  height: 230px;
+  margin-top: 10px;
+  /* padding-top: 45px;   */
+}
+
+.speaker img{
+  margin: 0 2rem;
+  padding-bottom: 4.5rem;
+  width: 200px;
+  height: 200px;
+  filter:brightness(100%) contrast(110%);
+
+  transform: rotate(40deg);
+}
+
+.speaker p{
+ 
+   font-Size: 1.2rem;
+    color: white !important;
+    font-Family: Lato;
+    width: max-content;
+    text-Align: left;
+    font-Weight: 600;
+    margin-Top:-4rem;
+ 
+}
+
+.top-right-items, .btm-right-items{
+display: flex;
+height: 13rem;
+width: 100%;
+
+
+}
+
+.camera{
+  margin: -2rem 1rem;
+  width: 40%;
+  height: 14.85rem;
+    background: url(../../assets/Images/hero_bg.jpg);
+    filter:brightness(90%) contrast(100%);
+
+    margin-top: -30px;
+    
+}
+
+.camera img{
+  width: 150px;
+  height: 200px;
+  margin-left: 3rem;
+  filter:brightness(150%) contrast(95%);
+
+}
+.camera p{
+  margin: 0 5rem;
+  font-Size: 1.2rem;
+  color: white !important;
+  font-Family: Lato;
+  width: max-content;
+  text-Align: left;
+  font-Weight: 600;
+  /* text-align: center; */
+  
+}
+/* .p-name {
+  color: grey !important;
+  font-size: 25px;
+  width: max-content; */
+  /* width: 100%; */
+  /* margin: 1rem 5rem; */
+  /* text-align: center; */
+/* text-transform: capitalize;} */
+
+.noshop{
+  color: goldenrod;
+  text-decoration: none;
+  border-bottom: 1px solid goldenrod;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: lato;
+}
+
+ .p-name{
+  color: grey ;
+  /* font-size: 25px; */
+  width: max-content;
+  /* width: 100%; */
+  /* margin: 0rem .5rem; */
+  font:600 1.7rem lato ;
+  /* text-align: left !important; */
+text-transform: capitalize
+}
+
+ .off-price{
+color: white !important;
+font-family: lato;
+width: max-content;
+text-transform: capitalize;
+margin-left: 4rem;
+font-weight: 600;
+}

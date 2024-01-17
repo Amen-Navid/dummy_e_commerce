@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    gap: 150px;
+    margin-left: 5rem;
+    height: 4.7rem;
+   box-sizing: border-box;
+   position: relative;
+   width: 100%;
+   margin-top: -25px;
+   
+}
+
+.header-left{
+    display: flex;
+    gap: 10%;
+    margin-top: 1rem;
+    text-decoration: none !important;
+
+}
+.logo{
+    margin: 1.5rem -0.8rem;
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    text-shadow: 4px 4px 3px #aaa;
+    font-family: Tangerine;
+    
+    
+}
+.header img{
+    width: 80px;
+    height:30px;
+    /* background-color: white; */
+    border-radius: 50%;
+    /* animation: rotate 5s linear infinite; */
+    margin-top: 1.8rem;
+    box-shadow: 4px 4px 10px #aaa;
+    
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.header-right{
+    display: flex;
+    gap: 10%;
+     width: max-content !important;
+
+    
+}
+.header-ul-1{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+    margin-top: 3rem; 
+     
+
+}
+
+.active-NavLink, .nactive-NavLink {
+  text-transform: capitalize;
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  color: black;
+  text-decoration: none !important;
+  font-family: Lato;
+ 
+}
+
+.active {
+  font-weight: bold;
+  color: goldenrod;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid goldenrod;
+}
+
+.nactive-NavLink{
+  font-weight: bold;
+  color: black;
+  border-bottom: none;
+
+  
+}
+
+.active:hover{
+  color: goldenrod;
+  border-bottom: 2px solid goldenrod !important;
+}
+
+
+.active-NavLink:hover{
+    color: goldenrod;
+}
+.nactive-NavLink:hover{
+    color: goldenrod;
+    border-bottom: none !important;
+
+    
+
+}
+
+.header-ul-2 li:hover, .header-ul-2 .active{
+   color: goldenrod; 
+   border-bottom: none !important;
+}
+.header-ul-2{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    cursor: pointer;}
+
+.header-ul-2 span{
+    background-color: goldenrod;
+    width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 1.9rem;
+  margin-left: 17px;
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: jump 5s ease-in-out infinite;
+}
+
+
+
+@keyframes jump {
+    0%, 10%, 10%, 10%, 10% {
+      transform: translateY(0);
+    }
+    10%, 10% {
+      transform: translateY(-5px);
+    }
+  }
+

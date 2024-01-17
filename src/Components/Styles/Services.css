@@ -1,0 +1,28 @@
+.service-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 9.4rem;
+    position: absolute;
+    /* width: 100%; */
+  }
+  
+  .service-text {
+    font-size: 1.1rem;
+    /* align-items: center; */
+    display: flex;
+    margin: -30px 80px;
+    text-transform: capitalize;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+    margin-right: 1rem;
+    position: relative;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    width: max-content;
+  }
+  
+  p {
+    color: grey !important;
+    font-size: 1.1rem;
+    margin: 1rem 5rem;
+    text-align: center;
+  }

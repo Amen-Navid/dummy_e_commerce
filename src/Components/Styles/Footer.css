@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    background-color: black;
+    color: white !important;
+    justify-content: space-between;
+    font: 500 1rem Lato;
+    margin-top: 10rem;
+    word-spacing: .5rem;
+    letter-spacing: .2rem;
+    line-height: 3rem;
+    height: 3rem;
+    width: 84.5rem;
+    text-transform: capitalize;
+   
+}
+
+.mid-footer a{
+    /* display:flex; */
+    gap: 1rem;
+    margin: 1rem;
+    line-height: 3rem;
+    color: white ;
+    /* margin-top: 1rem; */
+    
+}
+.mid-footer a:hover{
+   color: goldenrod;
+    
+}
+
+.right-footer{
+    margin-right: 1rem;
+}
